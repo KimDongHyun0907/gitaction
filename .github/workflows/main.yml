@@ -1,13 +1,12 @@
-
 import requests
-from bs4 import BeautifulSoup
+from bs4 import Beautiful Soup
 
 url='https://ridibooks.com/category/bestsellers/2200'
 response=requests.get(url)
 response.encoding='utf-8'
 html=response.text
 
-soup=BeautifulSoup(html,'html.parser')
+soup=BeatifulSoup(html,'html.parser')
 
 bookservices=soup.select('.title_text')
 for no,book in enumerate(bookservices,1):
