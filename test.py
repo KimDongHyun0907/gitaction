@@ -1,4 +1,6 @@
-import requests
+print('Hello World')
+
+"""import requests
 from bs4 import BeautifulSoup
 
 url='https://ridibooks.com/category/bestsellers/2200'
@@ -10,4 +12,4 @@ soup=BeautifulSoup(html,'html.parser')
 
 bookservices=soup.select('.title_text')
 for no,book in enumerate(bookservices,1):
-  print(no,book.text.strip())
+  print(no,book.text.strip())"""
